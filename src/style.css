@@ -1,0 +1,122 @@
+
+
+td {
+    border:  2px solid #333;
+    height:  150px;
+    width:  150px;
+    text-align:  center;
+    vertical-align:  middle;
+    font-family: 'Handlee', cursive;
+    font-size:  100px;
+    cursor: pointer;
+    left : 28%;
+  }
+
+  body{
+    background-image: url("bg.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .content{
+    width:550px;
+    height: 550px;
+    max-height:1000px;
+    top: 70px;
+    position:   absolute;
+    left : 28%;
+    background-color: rgb(246, 246, 246);
+    box-shadow: 2px 2px 5px black;
+    background-image: url("papertexture.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+  
+  table {
+    border-collapse: collapse;
+    position:   fixed;
+    left: 42.5%;
+    margin-left: -155px;
+    top: 110px;
+  }
+  
+  table tr:first-child td {
+    border-top: 0;
+  }
+  
+  table tr:last-child td {
+    border-bottom: 0;
+  }
+  
+  table tr td:first-child {
+    border-left: 0;
+  }
+  table tr td:last-child {
+    border-right: 0;
+  }
+  
+  .endgame {
+    display: none;
+    width:  420px;
+    top: 250px;
+    background-color: rgba(187, 187, 187, 0.8);
+    position: absolute;
+    left: 40%;
+    margin-left: -100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 5px;
+    color: yellow;
+    font-size: 2em;
+    font-family: 'Handlee', cursive;
+    box-shadow: 2px 2px 5px black;
+    text-shadow: 0px 4px 4px #282828;
+  }
+  
+  .selectSym{
+    font-family: 'Handlee', cursive;
+    display: none;
+    width: 420px;
+    top: 170px;
+    background-color: rgba(94, 63, 205, 0.8);
+    position: absolute;
+    left: 41%;
+    margin-left: -110px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 5px;
+    color: yellow;
+    font-size: 2em; 
+    box-shadow: 2px 2px 5px black;
+    text-shadow: 0px 4px 4px #282828;
+  }
+  
+  .startGame button{
+    font-family: 'Handlee', cursive;
+    width: 250px;
+    top: 170px;
+    font-size:  30px;
+    color: white;
+    text-shadow: 0px 4px 4px #282828;
+    background-color: rgba(59, 59, 59, 0.8);
+  }
+
+  .selectSym button{
+    font-family: 'Handlee', cursive;
+    font-size:  50px;
+    width: 70px;
+    box-shadow: 2px 2px 5px black;
+  }
+  
+  .selectSym  button:first-of-type {
+    margin-right: 10px;
+  }
+  .selectSym  button:last-of-type {
+    margin-left: 10px;
+  }
